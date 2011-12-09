@@ -1,0 +1,21 @@
+
+To run in Xcode: 
+Copy: 
+
+libffi
+objc
+FlickrAPIKey.h
+FF.h
+FF.m
+main.m   (replaces the template main.m)
+FlickrFetcher.nu
+
+into a Xcode project.
+Place your flickr api key in FlickrAPIKey.h 
+http://www.flickr.com/services/api/misc.api_keys.html
+Run
+
+
+
+
+
