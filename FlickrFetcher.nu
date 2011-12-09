@@ -153,7 +153,12 @@
           ((self navigationController) pushViewController:@photoView animated:YES)))
 
 (class PhotoViewer is UIViewController
-       (ivar (id)theImage))
+       (ivar (id)theImage)
+       
+       (- viewDidLoad is 
+       (set view ((UIImageView alloc) initWithImage:@theImage))
+       (view setFrame:((UIScreen mainScreen) bounds))
+       ((self view) addSubview:view)))
        
        
 
